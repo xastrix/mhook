@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\src\hde\hde64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\hde\table64.h">
+      <Filter>hde</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="..\src\hook.asm" />
+    <MASM Include="..\examples\test_hook.asm">
+      <Filter>examples</Filter>
+    </MASM>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\hook.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="hde">
+      <UniqueIdentifier>{a5323b77-5d96-47a1-a5cb-acd22eabceb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="examples">
+      <UniqueIdentifier>{26c5d332-cdf6-4e76-95a3-16525c63ede9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\hde\hde64.c">
+      <Filter>hde</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
